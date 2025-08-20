@@ -38,7 +38,7 @@ python gen_answer.py --model_name o3
 Once you have your model predictions, you can use UQ-validators via:
 
 ```bash
-python validate.py ...
+python validate.py --input_file <your-answer-file.jsonl> --model o3 --strategy sequential --turns 3 --multi_turn_voting majority
 ```
 
 ## Visuals
