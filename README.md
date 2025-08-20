@@ -29,7 +29,7 @@ dataset = load_dataset("uq-project/uq", split="test")
 ## Evaluation
 
 ```bash
-python predict.py ...
+python gen_answer.py --model_name o3
 ```
 
 
