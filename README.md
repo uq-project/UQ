@@ -29,16 +29,49 @@ dataset = load_dataset("uq-project/uq", split="test")
 ## Evaluation
 
 ```bash
+# Please specify your API key in `key.env`
 python gen_answer.py --model_name o3
 ```
 
+
+## Installation
+
+UQ Validator is now available as a pip-installable package:
+
+```bash
+# Install from source
+git clone https://github.com/uq-project/UQ.git
+cd UQ
+pip install -e .
+
+# Or install from PyPI (coming soon)
+pip install uq-validator
+```
 
 ## Validation
 
 Once you have your model predictions, you can use UQ-validators via:
 
+### Python Script
+
 ```bash
-python validate.py --input_file <your-answer-file.jsonl> --model o3 --strategy sequential --turns 3 --multi_turn_voting majority
+python validate.py --input_file your_answers --model o3 --strategy sequential --turns 3 \
+    --multi_turn_voting majority
+```
+
+### Command Line Interface
+
+```bash
+# Basic validation
+uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy relevance
+
+# Sequential validation with multiple strategies  
+uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy sequential \
+    --sequential_strategies relevance cycle_consistency factual_error final_answer
+
+# Multi-sample validation with voting
+uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy total_correctness \
+    --samples 3 --resampling_voting majority
 ```
 
 ## Visuals

@@ -339,15 +339,8 @@ def main():
         result = future.result()
         if result:
             with results_lock:
-                # The result is already added to the shared list in the task function (implicitly via future.result())
-                # Find the right place to add the result to all_evaluated
-                # The future returns the evaluated_question dict
                 all_evaluated.append(result)
-                # Save progress incrementally (every 10 questions processed *in this run*)
-                # Need to track how many new items are processed
-                # Better: Save based on total length modulo 10
                 if len(all_evaluated) % 10 == 0:
-                    # Ensure writing is safe even with threads? write_jsonl opens/closes file.
                     write_jsonl(all_evaluated, args.output_all) 
         pbar.update(1)
     
