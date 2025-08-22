@@ -65,7 +65,7 @@ python validate.py --input_file your_answers --model o3 --strategy sequential --
 # Basic validation
 uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy relevance
 
-# Sequential validation with multiple strategies  
+# Sequential validation with multiple strategies
 uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy sequential \
     --sequential_strategies relevance cycle_consistency factual_error final_answer
 
