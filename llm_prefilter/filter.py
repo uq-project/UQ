@@ -19,7 +19,7 @@ thread_local = threading.local()
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Evaluate and filter questions using OpenAI API')
-    parser.add_argument('--input', type=str, default='__collector_questions.jsonl',
+    parser.add_argument('--input', type=str, default='__crawler_questions.jsonl',
                         help='Path to input JSONL file containing questions')
     parser.add_argument('--output_all', type=str, default='all_evaluated_questions.jsonl',
                         help='Path to output JSONL file for all evaluated questions')
@@ -68,7 +68,7 @@ def safe_json_loads(text):
 def evaluate_single_sample(question, model_answer, eval_model, sample_id=1):
     """Evaluate a question with a single sample"""
     eval_prompt = f"""
-You are evaluating whether a question can be used for a benchmark of challenging questions. 
+You are evaluating whether a question can be used for a benchmark of challenging questions.
 This benchmark aims at evaluating the most powerful LLMs' capabilities of solving the most difficult questions that are unsolved by human experts.
 We only select questions that are difficult and even unsolvable by human experts.
 
@@ -142,11 +142,11 @@ Please be as strict and objective as possible.
                 reasoning_effort="high"
             )
             content = eval_response.choices[0].message.content.strip()
-            
+
             # Use the robust JSON parser
             result = safe_json_loads(content)
             return result
-            
+
         except Exception as e:
             if attempt < max_retries - 1:
                 print(f"Error evaluating question (sample {sample_id}): {e}. Retrying in {retry_delay} seconds...")
@@ -160,7 +160,7 @@ def process_question(question, answer_model, eval_model, num_samples=3, temperat
     Process a question using a two-model approach with multiple evaluation samples:
     1. One model attempts to answer the question
     2. Another model evaluates the difficulty and answer quality multiple times
-    
+
     Returns a dictionary with aggregated evaluation results
     """
     client = get_client()
@@ -176,7 +176,7 @@ SITE: {question.get('source', '')}
 
 Provide your best and most accurate answer.
 """
-    
+
     try:
         answer_response = client.chat.completions.create(
             model=answer_model,
@@ -190,26 +190,26 @@ Provide your best and most accurate answer.
     except Exception as e:
         print(f"Error getting answer: {e}")
         model_answer = "Failed to generate answer"
-    
+
     # Step 2: Evaluate multiple times
     results = []
     for i in range(num_samples):
         sample_result = evaluate_single_sample(
-            question, 
-            model_answer, 
-            eval_model, 
+            question,
+            model_answer,
+            eval_model,
             sample_id=i+1
         )
         if sample_result:
             results.append(sample_result)
         # Avoid rate limits
         time.sleep(1)
-    
+
     # Step 3: Aggregate results
     aggregated_result = {
         "Model_Answer": model_answer
     }
-    
+
     if not results:
         aggregated_result["Answer_Correctness"] = 100
         aggregated_result["Expert_Solve_Probability"] = 100
@@ -225,41 +225,41 @@ Provide your best and most accurate answer.
     except (ValueError, TypeError):
         print("Error calculating Answer_Correctness average. Using default value.")
         aggregated_result["Answer_Correctness"] = 0  # Default to 0% if we can't calculate
-        
+
     try:
         aggregated_result["Expert_Solve_Probability"] = sum(float(r.get("Expert_Solve_Probability", 50)) for r in results) / num_samples
     except (ValueError, TypeError):
         print("Error calculating Expert_Solve_Probability average. Using default value.")
         aggregated_result["Expert_Solve_Probability"] = 0  # Default to 50% if we can't calculate
-    
+
     # For Yes/No questions, only "Yes" if all samples are "Yes"
     aggregated_result["Answerable"] = "Yes" if all(r.get("Answerable", "No") == "Yes" for r in results) else "No"
     aggregated_result["Clear"] = "Yes" if all(r.get("Clear", "No") == "Yes" for r in results) else "No"
     aggregated_result["Unambiguous_Answer"] = "Yes" if all(r.get("Unambiguous_Answer", "No") == "Yes" for r in results) else "No"
-    
+
     # Combine explanations
-    aggregated_result["Explanation"] = " | ".join([f"Sample {i+1}: {r.get('Explanation', 'No explanation')}" 
+    aggregated_result["Explanation"] = " | ".join([f"Sample {i+1}: {r.get('Explanation', 'No explanation')}"
                                                    for i, r in enumerate(results)])
-    
+
     return aggregated_result
 
 def process_single_question_task(args):
     """Process a single question for multi-threading"""
     idx, question, answer_model, eval_model, num_samples, temperature = args
-    
+
     # Skip questions that don't have required fields
     if not all(key in question for key in ['title', 'body']):
         print(f"Skipping question {idx} - missing required fields")
         return None
-    
+
     result = process_question(
-        question, 
-        answer_model=answer_model, 
-        eval_model=eval_model, 
+        question,
+        answer_model=answer_model,
+        eval_model=eval_model,
         num_samples=num_samples,
         temperature=temperature
     )
-    
+
     # Add evaluation results to the original data
     evaluated_question = question.copy()
     evaluated_question["Answer_Correctness"] = result.get("Answer_Correctness", 100)
@@ -271,7 +271,7 @@ def process_single_question_task(args):
     evaluated_question["original_index"] = idx
     # evaluated_question["Model_Answer"] = result.get("Model_Answer", "")
     # evaluated_question["Individual_Samples"] = result.get("Individual_Samples", [])
-    
+
     return evaluated_question
 
 def read_jsonl(file_path):
@@ -294,11 +294,11 @@ def write_jsonl(data, file_path):
 
 def main():
     args = parse_args()
-    
+
     # Load questions from JSONL
     questions = read_jsonl(args.input)
     print(f"Loaded {len(questions)} questions from {args.input}")
-    
+
     # --- Resume Logic Start ---
     all_evaluated = []
     processed_indices = set()
@@ -316,10 +316,10 @@ def main():
             processed_indices = set()
             # Optionally: backup the corrupted file
             # os.rename(args.output_all, args.output_all + ".bak")
-    
+
     # Filter out questions that have already been processed
     questions_to_process = [(i, q) for i, q in enumerate(questions) if i not in processed_indices]
-    
+
     if not questions_to_process:
         print("All questions have already been processed.")
         # Proceed to filtering and saving based on existing results
@@ -327,13 +327,13 @@ def main():
         print(f"Resuming processing. {len(questions_to_process)} questions remaining.")
 
     # --- Resume Logic End ---
-    
+
     # Create thread-safe list for results (already initialized above)
     results_lock = threading.Lock()
 
     # Progress bar for completed tasks (only for remaining questions)
     pbar = tqdm(total=len(questions_to_process), desc="Processing questions")
-    
+
     # Function to update progress and save incremental results
     def update_progress(future):
         result = future.result()
@@ -341,15 +341,15 @@ def main():
             with results_lock:
                 all_evaluated.append(result)
                 if len(all_evaluated) % 10 == 0:
-                    write_jsonl(all_evaluated, args.output_all) 
+                    write_jsonl(all_evaluated, args.output_all)
         pbar.update(1)
-    
+
     # Prepare arguments for processing only the remaining questions
     question_args = [
-        (idx, q, args.answer_model, args.eval_model, args.num_samples, args.temperature) 
+        (idx, q, args.answer_model, args.eval_model, args.num_samples, args.temperature)
         for idx, q in questions_to_process # Use the filtered list
     ]
-    
+
     max_workers = min(args.max_workers, len(question_args))
     # Only run processing if there are questions left
     if questions_to_process:
@@ -358,24 +358,24 @@ def main():
             futures = [executor.submit(process_single_question_task, arg) for arg in question_args]
             for future in futures:
                 future.add_done_callback(update_progress)
-            
+
             # Wait for all futures to complete
             concurrent.futures.wait(futures)
-        
+
         pbar.close()
-    
+
     # Make sure all_evaluated is not empty before proceeding (could be empty if input was empty or all processed previously)
     if not all_evaluated:
         print("No questions were evaluated (either input empty, all processed previously, or errors occurred).")
         # Ensure output files are handled correctly even in this case
         # Write empty files if they don't exist? Or just skip? Let's skip filtering if no results.
         return # Exit early
-    
+
     # Save all evaluated questions (including previously loaded and newly processed)
     # This overwrites the incremental saves with the final complete list
     write_jsonl(all_evaluated, args.output_all)
     print(f"Saved all {len(all_evaluated)} evaluated questions to {args.output_all}")
-    
+
     # Filter extremely difficult questions (using the combined list)
     filtered_questions = [
         q for q in all_evaluated if (
@@ -387,11 +387,11 @@ def main():
             (float(q["Expert_Solve_Probability"]) < 70 if "Expert_Solve_Probability" in q else False)
         )
     ]
-    
+
     # Print statistics before saving filtered questions
     print("\nEvaluation Statistics:")
     print(f"Total questions evaluated (including resumed): {len(all_evaluated)}")
-    
+
     # Safely calculate stats
     valid_ac_count = sum(1 for q in all_evaluated if "Answer_Correctness" in q)
     valid_esp_count = sum(1 for q in all_evaluated if "Expert_Solve_Probability" in q)
@@ -422,7 +422,7 @@ def main():
         print(f"Answerable: {answerable_yes} ({answerable_yes/len(all_evaluated)*100:.1f}%)")
     else:
         print("Answerable stats not available.")
-        
+
     if valid_clr_count > 0:
         clear_yes = sum(1 for q in all_evaluated if q.get("Clear", "No") == "Yes")
         print(f"Clear: {clear_yes} ({clear_yes/len(all_evaluated)*100:.1f}%)")
@@ -434,34 +434,34 @@ def main():
         print(f"Unambiguous Answer: {unambiguous_yes} ({unambiguous_yes/len(all_evaluated)*100:.1f}%)")
     else:
         print("Unambiguous Answer stats not available.")
-        
+
     # Combined filter stats
     print(f"Questions meeting all criteria: {len(filtered_questions)} ({len(filtered_questions)/len(all_evaluated)*100:.1f}% of evaluated)")
-    
+
     # Save filtered questions if any found
     if filtered_questions:
         write_jsonl(filtered_questions, args.output_filtered)
         print(f"Saved {len(filtered_questions)} filtered questions to {args.output_filtered}")
     else:
         # Check if all_evaluated was not empty but filtering resulted in zero questions
-        if all_evaluated: 
+        if all_evaluated:
             print("Warning: No questions met all filtering criteria. Check your filtering thresholds.")
         # Save an empty file to avoid confusion if the file doesn't exist or if filtering yielded nothing
         if not os.path.exists(args.output_filtered) or all_evaluated:
              with open(args.output_filtered, 'w') as f:
                  f.write('')
              print(f"Created/Cleared file at {args.output_filtered}")
-        
+
     # Print detailed breakdown of filtering results to help diagnose issues
     print("\nDetailed filter breakdown:")
-    
+
     # Use safe checks for calculations
     answer_correct_fail = sum(1 for q in all_evaluated if not ("Answer_Correctness" in q and float(q["Answer_Correctness"]) < 40))
     expert_solve_fail = sum(1 for q in all_evaluated if not ("Expert_Solve_Probability" in q and float(q["Expert_Solve_Probability"]) < 70))
     answerable_fail = sum(1 for q in all_evaluated if q.get("Answerable", "No") != "Yes")
     clear_fail = sum(1 for q in all_evaluated if q.get("Clear", "No") != "Yes")
     unambiguous_fail = sum(1 for q in all_evaluated if q.get("Unambiguous_Answer", "No") != "Yes")
-    
+
     print(f"Questions failing Answer_Correctness < 40 (or missing key): {answer_correct_fail}")
     print(f"Questions failing Expert_Solve_Probability < 70 (or missing key): {expert_solve_fail}")
     print(f"Questions failing Answerable == Yes: {answerable_fail}")
