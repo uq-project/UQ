@@ -2,7 +2,7 @@
 
 # UQ: Assessing Language Models on Unsolved Questions
 
-🌐 [Website](https://uq.stanford.edu/) | 📄 [Paper](https://arxiv.org/abs/TODO) | 🤗 [Dataset](https://hf.co/datasets/uq-project/uq)
+🌐 [Website](https://uq.stanford.edu/) | 📄 [Paper](https://arxiv.org/abs/2508.17580) | 🤗 [Dataset](https://hf.co/datasets/uq-project/uq)
 
 </div>
 
@@ -65,7 +65,7 @@ python validate.py --input_file your_answers --model o3 --strategy sequential --
 # Basic validation
 uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy relevance
 
-# Sequential validation with multiple strategies  
+# Sequential validation with multiple strategies
 uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy sequential \
     --sequential_strategies relevance cycle_consistency factual_error final_answer
 
@@ -81,5 +81,13 @@ All figures and some tables are created via [this colab](TODO) equivalent to `vi
 ## Citation
 
 ```bibtex
-TODO
+@misc{nie2025uqassessinglanguagemodels,
+      title={UQ: Assessing Language Models on Unsolved Questions}, 
+      author={Fan Nie and Ken Ziyu Liu and Zihao Wang and Rui Sun and Wei Liu and Weijia Shi and Huaxiu Yao and Linjun Zhang and Andrew Y. Ng and James Zou and Sanmi Koyejo and Yejin Choi and Percy Liang and Niklas Muennighoff},
+      year={2025},
+      eprint={2508.17580},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.17580}, 
+}
 ```

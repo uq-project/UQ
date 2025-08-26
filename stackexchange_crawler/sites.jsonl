@@ -1,0 +1,364 @@
+{"name": "Stack Overflow", "site_url": "https://stackoverflow.com", "api_site_parameter": "stackoverflow"}
+{"name": "Server Fault", "site_url": "https://serverfault.com", "api_site_parameter": "serverfault"}
+{"name": "Super User", "site_url": "https://superuser.com", "api_site_parameter": "superuser"}
+{"name": "Meta Stack Exchange", "site_url": "https://meta.stackexchange.com", "api_site_parameter": "meta"}
+{"name": "Web Applications", "site_url": "https://webapps.stackexchange.com", "api_site_parameter": "webapps"}
+{"name": "Web Applications Meta", "site_url": "https://webapps.meta.stackexchange.com", "api_site_parameter": "webapps.meta"}
+{"name": "Arqade", "site_url": "https://gaming.stackexchange.com", "api_site_parameter": "gaming"}
+{"name": "Arqade Meta", "site_url": "https://gaming.meta.stackexchange.com", "api_site_parameter": "gaming.meta"}
+{"name": "Webmasters", "site_url": "https://webmasters.stackexchange.com", "api_site_parameter": "webmasters"}
+{"name": "Webmasters Meta", "site_url": "https://webmasters.meta.stackexchange.com", "api_site_parameter": "webmasters.meta"}
+{"name": "Seasoned Advice", "site_url": "https://cooking.stackexchange.com", "api_site_parameter": "cooking"}
+{"name": "Seasoned Advice Meta", "site_url": "https://cooking.meta.stackexchange.com", "api_site_parameter": "cooking.meta"}
+{"name": "Game Development", "site_url": "https://gamedev.stackexchange.com", "api_site_parameter": "gamedev"}
+{"name": "Game Development Meta", "site_url": "https://gamedev.meta.stackexchange.com", "api_site_parameter": "gamedev.meta"}
+{"name": "Photography", "site_url": "https://photo.stackexchange.com", "api_site_parameter": "photo"}
+{"name": "Photography Meta", "site_url": "https://photo.meta.stackexchange.com", "api_site_parameter": "photo.meta"}
+{"name": "Cross Validated", "site_url": "https://stats.stackexchange.com", "api_site_parameter": "stats"}
+{"name": "Cross Validated Meta", "site_url": "https://stats.meta.stackexchange.com", "api_site_parameter": "stats.meta"}
+{"name": "Mathematics", "site_url": "https://math.stackexchange.com", "api_site_parameter": "math"}
+{"name": "Mathematics Meta", "site_url": "https://math.meta.stackexchange.com", "api_site_parameter": "math.meta"}
+{"name": "Home Improvement", "site_url": "https://diy.stackexchange.com", "api_site_parameter": "diy"}
+{"name": "Home Improvement Meta", "site_url": "https://diy.meta.stackexchange.com", "api_site_parameter": "diy.meta"}
+{"name": "Meta Super User", "site_url": "https://meta.superuser.com", "api_site_parameter": "meta.superuser"}
+{"name": "Meta Server Fault", "site_url": "https://meta.serverfault.com", "api_site_parameter": "meta.serverfault"}
+{"name": "Geographic Information Systems", "site_url": "https://gis.stackexchange.com", "api_site_parameter": "gis"}
+{"name": "Geographic Information Systems Meta", "site_url": "https://gis.meta.stackexchange.com", "api_site_parameter": "gis.meta"}
+{"name": "TeX - LaTeX", "site_url": "https://tex.stackexchange.com", "api_site_parameter": "tex"}
+{"name": "TeX - LaTeX Meta", "site_url": "https://tex.meta.stackexchange.com", "api_site_parameter": "tex.meta"}
+{"name": "Ask Ubuntu", "site_url": "https://askubuntu.com", "api_site_parameter": "askubuntu"}
+{"name": "Ask Ubuntu Meta", "site_url": "https://meta.askubuntu.com", "api_site_parameter": "meta.askubuntu"}
+{"name": "Personal Finance &amp; Money", "site_url": "https://money.stackexchange.com", "api_site_parameter": "money"}
+{"name": "Personal Finance &amp; Money Meta", "site_url": "https://money.meta.stackexchange.com", "api_site_parameter": "money.meta"}
+{"name": "English Language &amp; Usage", "site_url": "https://english.stackexchange.com", "api_site_parameter": "english"}
+{"name": "English Language &amp; Usage Meta", "site_url": "https://english.meta.stackexchange.com", "api_site_parameter": "english.meta"}
+{"name": "Stack Apps", "site_url": "https://stackapps.com", "api_site_parameter": "stackapps"}
+{"name": "User Experience", "site_url": "https://ux.stackexchange.com", "api_site_parameter": "ux"}
+{"name": "User Experience Meta", "site_url": "https://ux.meta.stackexchange.com", "api_site_parameter": "ux.meta"}
+{"name": "Unix &amp; Linux", "site_url": "https://unix.stackexchange.com", "api_site_parameter": "unix"}
+{"name": "Unix &amp; Linux Meta", "site_url": "https://unix.meta.stackexchange.com", "api_site_parameter": "unix.meta"}
+{"name": "WordPress Development", "site_url": "https://wordpress.stackexchange.com", "api_site_parameter": "wordpress"}
+{"name": "WordPress Development Meta", "site_url": "https://wordpress.meta.stackexchange.com", "api_site_parameter": "wordpress.meta"}
+{"name": "Theoretical Computer Science", "site_url": "https://cstheory.stackexchange.com", "api_site_parameter": "cstheory"}
+{"name": "Theoretical Computer Science Meta", "site_url": "https://cstheory.meta.stackexchange.com", "api_site_parameter": "cstheory.meta"}
+{"name": "Ask Different", "site_url": "https://apple.stackexchange.com", "api_site_parameter": "apple"}
+{"name": "Ask Different Meta", "site_url": "https://apple.meta.stackexchange.com", "api_site_parameter": "apple.meta"}
+{"name": "Role-playing Games", "site_url": "https://rpg.stackexchange.com", "api_site_parameter": "rpg"}
+{"name": "Role-playing Games Meta", "site_url": "https://rpg.meta.stackexchange.com", "api_site_parameter": "rpg.meta"}
+{"name": "Bicycles", "site_url": "https://bicycles.stackexchange.com", "api_site_parameter": "bicycles"}
+{"name": "Bicycles Meta", "site_url": "https://bicycles.meta.stackexchange.com", "api_site_parameter": "bicycles.meta"}
+{"name": "Software Engineering", "site_url": "https://softwareengineering.stackexchange.com", "api_site_parameter": "softwareengineering"}
+{"name": "Software Engineering Meta", "site_url": "https://softwareengineering.meta.stackexchange.com", "api_site_parameter": "softwareengineering.meta"}
+{"name": "Electrical Engineering", "site_url": "https://electronics.stackexchange.com", "api_site_parameter": "electronics"}
+{"name": "Electrical Engineering Meta", "site_url": "https://electronics.meta.stackexchange.com", "api_site_parameter": "electronics.meta"}
+{"name": "Android Enthusiasts", "site_url": "https://android.stackexchange.com", "api_site_parameter": "android"}
+{"name": "Android Enthusiasts Meta", "site_url": "https://android.meta.stackexchange.com", "api_site_parameter": "android.meta"}
+{"name": "Board &amp; Card Games", "site_url": "https://boardgames.stackexchange.com", "api_site_parameter": "boardgames"}
+{"name": "Board &amp; Card Games Meta", "site_url": "https://boardgames.meta.stackexchange.com", "api_site_parameter": "boardgames.meta"}
+{"name": "Physics", "site_url": "https://physics.stackexchange.com", "api_site_parameter": "physics"}
+{"name": "Physics Meta", "site_url": "https://physics.meta.stackexchange.com", "api_site_parameter": "physics.meta"}
+{"name": "Homebrewing", "site_url": "https://homebrew.stackexchange.com", "api_site_parameter": "homebrew"}
+{"name": "Homebrewing Meta", "site_url": "https://homebrew.meta.stackexchange.com", "api_site_parameter": "homebrew.meta"}
+{"name": "Information Security", "site_url": "https://security.stackexchange.com", "api_site_parameter": "security"}
+{"name": "Information Security Meta", "site_url": "https://security.meta.stackexchange.com", "api_site_parameter": "security.meta"}
+{"name": "Writing", "site_url": "https://writing.stackexchange.com", "api_site_parameter": "writing"}
+{"name": "Writing Meta", "site_url": "https://writing.meta.stackexchange.com", "api_site_parameter": "writing.meta"}
+{"name": "Video Production", "site_url": "https://video.stackexchange.com", "api_site_parameter": "video"}
+{"name": "Video Production Meta", "site_url": "https://video.meta.stackexchange.com", "api_site_parameter": "video.meta"}
+{"name": "Graphic Design", "site_url": "https://graphicdesign.stackexchange.com", "api_site_parameter": "graphicdesign"}
+{"name": "Graphic Design Meta", "site_url": "https://graphicdesign.meta.stackexchange.com", "api_site_parameter": "graphicdesign.meta"}
+{"name": "Database Administrators", "site_url": "https://dba.stackexchange.com", "api_site_parameter": "dba"}
+{"name": "Database Administrators Meta", "site_url": "https://dba.meta.stackexchange.com", "api_site_parameter": "dba.meta"}
+{"name": "Science Fiction &amp; Fantasy", "site_url": "https://scifi.stackexchange.com", "api_site_parameter": "scifi"}
+{"name": "Science Fiction &amp; Fantasy Meta", "site_url": "https://scifi.meta.stackexchange.com", "api_site_parameter": "scifi.meta"}
+{"name": "Code Review", "site_url": "https://codereview.stackexchange.com", "api_site_parameter": "codereview"}
+{"name": "Code Review Meta", "site_url": "https://codereview.meta.stackexchange.com", "api_site_parameter": "codereview.meta"}
+{"name": "Code Golf", "site_url": "https://codegolf.stackexchange.com", "api_site_parameter": "codegolf"}
+{"name": "Code Golf Meta", "site_url": "https://codegolf.meta.stackexchange.com", "api_site_parameter": "codegolf.meta"}
+{"name": "Quantitative Finance", "site_url": "https://quant.stackexchange.com", "api_site_parameter": "quant"}
+{"name": "Quantitative Finance Meta", "site_url": "https://quant.meta.stackexchange.com", "api_site_parameter": "quant.meta"}
+{"name": "Project Management", "site_url": "https://pm.stackexchange.com", "api_site_parameter": "pm"}
+{"name": "Project Management Meta", "site_url": "https://pm.meta.stackexchange.com", "api_site_parameter": "pm.meta"}
+{"name": "Skeptics", "site_url": "https://skeptics.stackexchange.com", "api_site_parameter": "skeptics"}
+{"name": "Skeptics Meta", "site_url": "https://skeptics.meta.stackexchange.com", "api_site_parameter": "skeptics.meta"}
+{"name": "Physical Fitness", "site_url": "https://fitness.stackexchange.com", "api_site_parameter": "fitness"}
+{"name": "Physical Fitness Meta", "site_url": "https://fitness.meta.stackexchange.com", "api_site_parameter": "fitness.meta"}
+{"name": "Drupal Answers", "site_url": "https://drupal.stackexchange.com", "api_site_parameter": "drupal"}
+{"name": "Drupal Answers Meta", "site_url": "https://drupal.meta.stackexchange.com", "api_site_parameter": "drupal.meta"}
+{"name": "Motor Vehicle Maintenance &amp; Repair", "site_url": "https://mechanics.stackexchange.com", "api_site_parameter": "mechanics"}
+{"name": "Motor Vehicle Maintenance &amp; Repair Meta", "site_url": "https://mechanics.meta.stackexchange.com", "api_site_parameter": "mechanics.meta"}
+{"name": "Parenting", "site_url": "https://parenting.stackexchange.com", "api_site_parameter": "parenting"}
+{"name": "Parenting Meta", "site_url": "https://parenting.meta.stackexchange.com", "api_site_parameter": "parenting.meta"}
+{"name": "SharePoint", "site_url": "https://sharepoint.stackexchange.com", "api_site_parameter": "sharepoint"}
+{"name": "SharePoint Meta", "site_url": "https://sharepoint.meta.stackexchange.com", "api_site_parameter": "sharepoint.meta"}
+{"name": "Music: Practice &amp; Theory", "site_url": "https://music.stackexchange.com", "api_site_parameter": "music"}
+{"name": "Music: Practice &amp; Theory Meta", "site_url": "https://music.meta.stackexchange.com", "api_site_parameter": "music.meta"}
+{"name": "Software Quality Assurance &amp; Testing", "site_url": "https://sqa.stackexchange.com", "api_site_parameter": "sqa"}
+{"name": "Software Quality Assurance &amp; Testing Meta", "site_url": "https://sqa.meta.stackexchange.com", "api_site_parameter": "sqa.meta"}
+{"name": "Mi Yodeya", "site_url": "https://judaism.stackexchange.com", "api_site_parameter": "judaism"}
+{"name": "Mi Yodeya Meta", "site_url": "https://judaism.meta.stackexchange.com", "api_site_parameter": "judaism.meta"}
+{"name": "German Language", "site_url": "https://german.stackexchange.com", "api_site_parameter": "german"}
+{"name": "German Language Meta", "site_url": "https://german.meta.stackexchange.com", "api_site_parameter": "german.meta"}
+{"name": "Japanese Language", "site_url": "https://japanese.stackexchange.com", "api_site_parameter": "japanese"}
+{"name": "Japanese Language Meta", "site_url": "https://japanese.meta.stackexchange.com", "api_site_parameter": "japanese.meta"}
+{"name": "Philosophy", "site_url": "https://philosophy.stackexchange.com", "api_site_parameter": "philosophy"}
+{"name": "Philosophy Meta", "site_url": "https://philosophy.meta.stackexchange.com", "api_site_parameter": "philosophy.meta"}
+{"name": "Gardening &amp; Landscaping", "site_url": "https://gardening.stackexchange.com", "api_site_parameter": "gardening"}
+{"name": "Gardening &amp; Landscaping Meta", "site_url": "https://gardening.meta.stackexchange.com", "api_site_parameter": "gardening.meta"}
+{"name": "Travel", "site_url": "https://travel.stackexchange.com", "api_site_parameter": "travel"}
+{"name": "Travel Meta", "site_url": "https://travel.meta.stackexchange.com", "api_site_parameter": "travel.meta"}
+{"name": "Cryptography", "site_url": "https://crypto.stackexchange.com", "api_site_parameter": "crypto"}
+{"name": "Cryptography Meta", "site_url": "https://crypto.meta.stackexchange.com", "api_site_parameter": "crypto.meta"}
+{"name": "Signal Processing", "site_url": "https://dsp.stackexchange.com", "api_site_parameter": "dsp"}
+{"name": "Signal Processing Meta", "site_url": "https://dsp.meta.stackexchange.com", "api_site_parameter": "dsp.meta"}
+{"name": "French Language", "site_url": "https://french.stackexchange.com", "api_site_parameter": "french"}
+{"name": "French Language Meta", "site_url": "https://french.meta.stackexchange.com", "api_site_parameter": "french.meta"}
+{"name": "Christianity", "site_url": "https://christianity.stackexchange.com", "api_site_parameter": "christianity"}
+{"name": "Christianity Meta", "site_url": "https://christianity.meta.stackexchange.com", "api_site_parameter": "christianity.meta"}
+{"name": "Bitcoin", "site_url": "https://bitcoin.stackexchange.com", "api_site_parameter": "bitcoin"}
+{"name": "Bitcoin Meta", "site_url": "https://bitcoin.meta.stackexchange.com", "api_site_parameter": "bitcoin.meta"}
+{"name": "Linguistics", "site_url": "https://linguistics.stackexchange.com", "api_site_parameter": "linguistics"}
+{"name": "Linguistics Meta", "site_url": "https://linguistics.meta.stackexchange.com", "api_site_parameter": "linguistics.meta"}
+{"name": "Biblical Hermeneutics", "site_url": "https://hermeneutics.stackexchange.com", "api_site_parameter": "hermeneutics"}
+{"name": "Biblical Hermeneutics Meta", "site_url": "https://hermeneutics.meta.stackexchange.com", "api_site_parameter": "hermeneutics.meta"}
+{"name": "History", "site_url": "https://history.stackexchange.com", "api_site_parameter": "history"}
+{"name": "History Meta", "site_url": "https://history.meta.stackexchange.com", "api_site_parameter": "history.meta"}
+{"name": "Bricks", "site_url": "https://bricks.stackexchange.com", "api_site_parameter": "bricks"}
+{"name": "Bricks Meta", "site_url": "https://bricks.meta.stackexchange.com", "api_site_parameter": "bricks.meta"}
+{"name": "Spanish Language", "site_url": "https://spanish.stackexchange.com", "api_site_parameter": "spanish"}
+{"name": "Spanish Language Meta", "site_url": "https://spanish.meta.stackexchange.com", "api_site_parameter": "spanish.meta"}
+{"name": "Computational Science", "site_url": "https://scicomp.stackexchange.com", "api_site_parameter": "scicomp"}
+{"name": "Computational Science Meta", "site_url": "https://scicomp.meta.stackexchange.com", "api_site_parameter": "scicomp.meta"}
+{"name": "Movies &amp; TV", "site_url": "https://movies.stackexchange.com", "api_site_parameter": "movies"}
+{"name": "Movies &amp; TV Meta", "site_url": "https://movies.meta.stackexchange.com", "api_site_parameter": "movies.meta"}
+{"name": "Chinese Language", "site_url": "https://chinese.stackexchange.com", "api_site_parameter": "chinese"}
+{"name": "Chinese Language Meta", "site_url": "https://chinese.meta.stackexchange.com", "api_site_parameter": "chinese.meta"}
+{"name": "Biology", "site_url": "https://biology.stackexchange.com", "api_site_parameter": "biology"}
+{"name": "Biology Meta", "site_url": "https://biology.meta.stackexchange.com", "api_site_parameter": "biology.meta"}
+{"name": "Poker", "site_url": "https://poker.stackexchange.com", "api_site_parameter": "poker"}
+{"name": "Poker Meta", "site_url": "https://poker.meta.stackexchange.com", "api_site_parameter": "poker.meta"}
+{"name": "Mathematica", "site_url": "https://mathematica.stackexchange.com", "api_site_parameter": "mathematica"}
+{"name": "Mathematica Meta", "site_url": "https://mathematica.meta.stackexchange.com", "api_site_parameter": "mathematica.meta"}
+{"name": "Psychology &amp; Neuroscience", "site_url": "https://psychology.stackexchange.com", "api_site_parameter": "psychology"}
+{"name": "Psychology &amp; Neuroscience Meta", "site_url": "https://psychology.meta.stackexchange.com", "api_site_parameter": "psychology.meta"}
+{"name": "The Great Outdoors", "site_url": "https://outdoors.stackexchange.com", "api_site_parameter": "outdoors"}
+{"name": "The Great Outdoors Meta", "site_url": "https://outdoors.meta.stackexchange.com", "api_site_parameter": "outdoors.meta"}
+{"name": "Martial Arts", "site_url": "https://martialarts.stackexchange.com", "api_site_parameter": "martialarts"}
+{"name": "Martial Arts Meta", "site_url": "https://martialarts.meta.stackexchange.com", "api_site_parameter": "martialarts.meta"}
+{"name": "Sports", "site_url": "https://sports.stackexchange.com", "api_site_parameter": "sports"}
+{"name": "Sports Meta", "site_url": "https://sports.meta.stackexchange.com", "api_site_parameter": "sports.meta"}
+{"name": "Academia", "site_url": "https://academia.stackexchange.com", "api_site_parameter": "academia"}
+{"name": "Academia Meta", "site_url": "https://academia.meta.stackexchange.com", "api_site_parameter": "academia.meta"}
+{"name": "Computer Science", "site_url": "https://cs.stackexchange.com", "api_site_parameter": "cs"}
+{"name": "Computer Science Meta", "site_url": "https://cs.meta.stackexchange.com", "api_site_parameter": "cs.meta"}
+{"name": "The Workplace", "site_url": "https://workplace.stackexchange.com", "api_site_parameter": "workplace"}
+{"name": "The Workplace Meta", "site_url": "https://workplace.meta.stackexchange.com", "api_site_parameter": "workplace.meta"}
+{"name": "Chemistry", "site_url": "https://chemistry.stackexchange.com", "api_site_parameter": "chemistry"}
+{"name": "Chemistry Meta", "site_url": "https://chemistry.meta.stackexchange.com", "api_site_parameter": "chemistry.meta"}
+{"name": "Chess", "site_url": "https://chess.stackexchange.com", "api_site_parameter": "chess"}
+{"name": "Chess Meta", "site_url": "https://chess.meta.stackexchange.com", "api_site_parameter": "chess.meta"}
+{"name": "Raspberry Pi", "site_url": "https://raspberrypi.stackexchange.com", "api_site_parameter": "raspberrypi"}
+{"name": "Raspberry Pi Meta", "site_url": "https://raspberrypi.meta.stackexchange.com", "api_site_parameter": "raspberrypi.meta"}
+{"name": "Russian Language", "site_url": "https://russian.stackexchange.com", "api_site_parameter": "russian"}
+{"name": "Russian Language Meta", "site_url": "https://russian.meta.stackexchange.com", "api_site_parameter": "russian.meta"}
+{"name": "Islam", "site_url": "https://islam.stackexchange.com", "api_site_parameter": "islam"}
+{"name": "Islam Meta", "site_url": "https://islam.meta.stackexchange.com", "api_site_parameter": "islam.meta"}
+{"name": "Salesforce", "site_url": "https://salesforce.stackexchange.com", "api_site_parameter": "salesforce"}
+{"name": "Salesforce Meta", "site_url": "https://salesforce.meta.stackexchange.com", "api_site_parameter": "salesforce.meta"}
+{"name": "Ask Patents", "site_url": "https://patents.stackexchange.com", "api_site_parameter": "patents"}
+{"name": "Ask Patents Meta", "site_url": "https://patents.meta.stackexchange.com", "api_site_parameter": "patents.meta"}
+{"name": "Genealogy &amp; Family History", "site_url": "https://genealogy.stackexchange.com", "api_site_parameter": "genealogy"}
+{"name": "Genealogy &amp; Family History Meta", "site_url": "https://genealogy.meta.stackexchange.com", "api_site_parameter": "genealogy.meta"}
+{"name": "Robotics", "site_url": "https://robotics.stackexchange.com", "api_site_parameter": "robotics"}
+{"name": "Robotics Meta", "site_url": "https://robotics.meta.stackexchange.com", "api_site_parameter": "robotics.meta"}
+{"name": "ExpressionEngine&#174; Answers", "site_url": "https://expressionengine.stackexchange.com", "api_site_parameter": "expressionengine"}
+{"name": "ExpressionEngine&#174; Answers Meta", "site_url": "https://expressionengine.meta.stackexchange.com", "api_site_parameter": "expressionengine.meta"}
+{"name": "Politics", "site_url": "https://politics.stackexchange.com", "api_site_parameter": "politics"}
+{"name": "Politics Meta", "site_url": "https://politics.meta.stackexchange.com", "api_site_parameter": "politics.meta"}
+{"name": "Anime &amp; Manga", "site_url": "https://anime.stackexchange.com", "api_site_parameter": "anime"}
+{"name": "Anime &amp; Manga Meta", "site_url": "https://anime.meta.stackexchange.com", "api_site_parameter": "anime.meta"}
+{"name": "Magento", "site_url": "https://magento.stackexchange.com", "api_site_parameter": "magento"}
+{"name": "Magento Meta", "site_url": "https://magento.meta.stackexchange.com", "api_site_parameter": "magento.meta"}
+{"name": "English Language Learners", "site_url": "https://ell.stackexchange.com", "api_site_parameter": "ell"}
+{"name": "English Language Learners Meta", "site_url": "https://ell.meta.stackexchange.com", "api_site_parameter": "ell.meta"}
+{"name": "Sustainable Living", "site_url": "https://sustainability.stackexchange.com", "api_site_parameter": "sustainability"}
+{"name": "Sustainable Living Meta", "site_url": "https://sustainability.meta.stackexchange.com", "api_site_parameter": "sustainability.meta"}
+{"name": "Tridion", "site_url": "https://tridion.stackexchange.com", "api_site_parameter": "tridion"}
+{"name": "Tridion Meta", "site_url": "https://tridion.meta.stackexchange.com", "api_site_parameter": "tridion.meta"}
+{"name": "Reverse Engineering", "site_url": "https://reverseengineering.stackexchange.com", "api_site_parameter": "reverseengineering"}
+{"name": "Reverse Engineering Meta", "site_url": "https://reverseengineering.meta.stackexchange.com", "api_site_parameter": "reverseengineering.meta"}
+{"name": "Network Engineering", "site_url": "https://networkengineering.stackexchange.com", "api_site_parameter": "networkengineering"}
+{"name": "Network Engineering Meta", "site_url": "https://networkengineering.meta.stackexchange.com", "api_site_parameter": "networkengineering.meta"}
+{"name": "Open Data", "site_url": "https://opendata.stackexchange.com", "api_site_parameter": "opendata"}
+{"name": "Open Data Meta", "site_url": "https://opendata.meta.stackexchange.com", "api_site_parameter": "opendata.meta"}
+{"name": "Freelancing", "site_url": "https://freelancing.stackexchange.com", "api_site_parameter": "freelancing"}
+{"name": "Freelancing Meta", "site_url": "https://freelancing.meta.stackexchange.com", "api_site_parameter": "freelancing.meta"}
+{"name": "Blender", "site_url": "https://blender.stackexchange.com", "api_site_parameter": "blender"}
+{"name": "Blender Meta", "site_url": "https://blender.meta.stackexchange.com", "api_site_parameter": "blender.meta"}
+{"name": "MathOverflow", "site_url": "https://mathoverflow.net", "api_site_parameter": "mathoverflow.net"}
+{"name": "MathOverflow Meta", "site_url": "https://meta.mathoverflow.net", "api_site_parameter": "meta.mathoverflow.net"}
+{"name": "Space Exploration", "site_url": "https://space.stackexchange.com", "api_site_parameter": "space"}
+{"name": "Space Exploration Meta", "site_url": "https://space.meta.stackexchange.com", "api_site_parameter": "space.meta"}
+{"name": "Sound Design", "site_url": "https://sound.stackexchange.com", "api_site_parameter": "sound"}
+{"name": "Sound Design Meta", "site_url": "https://sound.meta.stackexchange.com", "api_site_parameter": "sound.meta"}
+{"name": "Astronomy", "site_url": "https://astronomy.stackexchange.com", "api_site_parameter": "astronomy"}
+{"name": "Astronomy Meta", "site_url": "https://astronomy.meta.stackexchange.com", "api_site_parameter": "astronomy.meta"}
+{"name": "Tor", "site_url": "https://tor.stackexchange.com", "api_site_parameter": "tor"}
+{"name": "Tor Meta", "site_url": "https://tor.meta.stackexchange.com", "api_site_parameter": "tor.meta"}
+{"name": "Pets", "site_url": "https://pets.stackexchange.com", "api_site_parameter": "pets"}
+{"name": "Pets Meta", "site_url": "https://pets.meta.stackexchange.com", "api_site_parameter": "pets.meta"}
+{"name": "Amateur Radio", "site_url": "https://ham.stackexchange.com", "api_site_parameter": "ham"}
+{"name": "Amateur Radio Meta", "site_url": "https://ham.meta.stackexchange.com", "api_site_parameter": "ham.meta"}
+{"name": "Italian Language", "site_url": "https://italian.stackexchange.com", "api_site_parameter": "italian"}
+{"name": "Italian Language Meta", "site_url": "https://italian.meta.stackexchange.com", "api_site_parameter": "italian.meta"}
+{"name": "Stack Overflow em Portugu&#234;s", "site_url": "https://pt.stackoverflow.com", "api_site_parameter": "pt.stackoverflow"}
+{"name": "Stack Overflow em Portugu&#234;s Meta", "site_url": "https://pt.meta.stackoverflow.com", "api_site_parameter": "pt.meta.stackoverflow"}
+{"name": "Aviation", "site_url": "https://aviation.stackexchange.com", "api_site_parameter": "aviation"}
+{"name": "Aviation Meta", "site_url": "https://aviation.meta.stackexchange.com", "api_site_parameter": "aviation.meta"}
+{"name": "Ebooks", "site_url": "https://ebooks.stackexchange.com", "api_site_parameter": "ebooks"}
+{"name": "Ebooks Meta", "site_url": "https://ebooks.meta.stackexchange.com", "api_site_parameter": "ebooks.meta"}
+{"name": "Beer, Wine &amp; Spirits", "site_url": "https://alcohol.stackexchange.com", "api_site_parameter": "alcohol"}
+{"name": "Beer, Wine &amp; Spirits Meta", "site_url": "https://alcohol.meta.stackexchange.com", "api_site_parameter": "alcohol.meta"}
+{"name": "Software Recommendations", "site_url": "https://softwarerecs.stackexchange.com", "api_site_parameter": "softwarerecs"}
+{"name": "Software Recommendations Meta", "site_url": "https://softwarerecs.meta.stackexchange.com", "api_site_parameter": "softwarerecs.meta"}
+{"name": "Arduino", "site_url": "https://arduino.stackexchange.com", "api_site_parameter": "arduino"}
+{"name": "Arduino Meta", "site_url": "https://arduino.meta.stackexchange.com", "api_site_parameter": "arduino.meta"}
+{"name": "CS50", "site_url": "https://cs50.stackexchange.com", "api_site_parameter": "cs50"}
+{"name": "CS50 Meta", "site_url": "https://cs50.meta.stackexchange.com", "api_site_parameter": "cs50.meta"}
+{"name": "Expatriates", "site_url": "https://expatriates.stackexchange.com", "api_site_parameter": "expatriates"}
+{"name": "Expatriates Meta", "site_url": "https://expatriates.meta.stackexchange.com", "api_site_parameter": "expatriates.meta"}
+{"name": "Mathematics Educators", "site_url": "https://matheducators.stackexchange.com", "api_site_parameter": "matheducators"}
+{"name": "Mathematics Educators Meta", "site_url": "https://matheducators.meta.stackexchange.com", "api_site_parameter": "matheducators.meta"}
+{"name": "Meta Stack Overflow", "site_url": "https://meta.stackoverflow.com", "api_site_parameter": "meta.stackoverflow"}
+{"name": "Earth Science", "site_url": "https://earthscience.stackexchange.com", "api_site_parameter": "earthscience"}
+{"name": "Earth Science Meta", "site_url": "https://earthscience.meta.stackexchange.com", "api_site_parameter": "earthscience.meta"}
+{"name": "Joomla", "site_url": "https://joomla.stackexchange.com", "api_site_parameter": "joomla"}
+{"name": "Joomla Meta", "site_url": "https://joomla.meta.stackexchange.com", "api_site_parameter": "joomla.meta"}
+{"name": "Data Science", "site_url": "https://datascience.stackexchange.com", "api_site_parameter": "datascience"}
+{"name": "Data Science Meta", "site_url": "https://datascience.meta.stackexchange.com", "api_site_parameter": "datascience.meta"}
+{"name": "Puzzling", "site_url": "https://puzzling.stackexchange.com", "api_site_parameter": "puzzling"}
+{"name": "Puzzling Meta", "site_url": "https://puzzling.meta.stackexchange.com", "api_site_parameter": "puzzling.meta"}
+{"name": "Craft CMS", "site_url": "https://craftcms.stackexchange.com", "api_site_parameter": "craftcms"}
+{"name": "Craft CMS Meta", "site_url": "https://craftcms.meta.stackexchange.com", "api_site_parameter": "craftcms.meta"}
+{"name": "Buddhism", "site_url": "https://buddhism.stackexchange.com", "api_site_parameter": "buddhism"}
+{"name": "Buddhism Meta", "site_url": "https://buddhism.meta.stackexchange.com", "api_site_parameter": "buddhism.meta"}
+{"name": "Hinduism", "site_url": "https://hinduism.stackexchange.com", "api_site_parameter": "hinduism"}
+{"name": "Hinduism Meta", "site_url": "https://hinduism.meta.stackexchange.com", "api_site_parameter": "hinduism.meta"}
+{"name": "Community Building", "site_url": "https://communitybuilding.stackexchange.com", "api_site_parameter": "communitybuilding"}
+{"name": "Community Building Meta", "site_url": "https://communitybuilding.meta.stackexchange.com", "api_site_parameter": "communitybuilding.meta"}
+{"name": "Worldbuilding", "site_url": "https://worldbuilding.stackexchange.com", "api_site_parameter": "worldbuilding"}
+{"name": "Worldbuilding Meta", "site_url": "https://worldbuilding.meta.stackexchange.com", "api_site_parameter": "worldbuilding.meta"}
+{"name": "\u30b9\u30bf\u30c3\u30af\u30fb\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fc", "site_url": "https://ja.stackoverflow.com", "api_site_parameter": "ja.stackoverflow"}
+{"name": "\u30b9\u30bf\u30c3\u30af\u30fb\u30aa\u30fc\u30d0\u30fc\u30d5\u30ed\u30fcMeta", "site_url": "https://ja.meta.stackoverflow.com", "api_site_parameter": "ja.meta.stackoverflow"}
+{"name": "Emacs", "site_url": "https://emacs.stackexchange.com", "api_site_parameter": "emacs"}
+{"name": "Emacs Meta", "site_url": "https://emacs.meta.stackexchange.com", "api_site_parameter": "emacs.meta"}
+{"name": "History of Science and Mathematics", "site_url": "https://hsm.stackexchange.com", "api_site_parameter": "hsm"}
+{"name": "History of Science and Mathematics Meta", "site_url": "https://hsm.meta.stackexchange.com", "api_site_parameter": "hsm.meta"}
+{"name": "Economics", "site_url": "https://economics.stackexchange.com", "api_site_parameter": "economics"}
+{"name": "Economics Meta", "site_url": "https://economics.meta.stackexchange.com", "api_site_parameter": "economics.meta"}
+{"name": "Lifehacks", "site_url": "https://lifehacks.stackexchange.com", "api_site_parameter": "lifehacks"}
+{"name": "Lifehacks Meta", "site_url": "https://lifehacks.meta.stackexchange.com", "api_site_parameter": "lifehacks.meta"}
+{"name": "Engineering", "site_url": "https://engineering.stackexchange.com", "api_site_parameter": "engineering"}
+{"name": "Engineering Meta", "site_url": "https://engineering.meta.stackexchange.com", "api_site_parameter": "engineering.meta"}
+{"name": "Coffee", "site_url": "https://coffee.stackexchange.com", "api_site_parameter": "coffee"}
+{"name": "Coffee Meta", "site_url": "https://coffee.meta.stackexchange.com", "api_site_parameter": "coffee.meta"}
+{"name": "Vi and Vim", "site_url": "https://vi.stackexchange.com", "api_site_parameter": "vi"}
+{"name": "Vi and Vim Meta", "site_url": "https://vi.meta.stackexchange.com", "api_site_parameter": "vi.meta"}
+{"name": "Music Fans", "site_url": "https://musicfans.stackexchange.com", "api_site_parameter": "musicfans"}
+{"name": "Music Fans Meta", "site_url": "https://musicfans.meta.stackexchange.com", "api_site_parameter": "musicfans.meta"}
+{"name": "Woodworking", "site_url": "https://woodworking.stackexchange.com", "api_site_parameter": "woodworking"}
+{"name": "Woodworking Meta", "site_url": "https://woodworking.meta.stackexchange.com", "api_site_parameter": "woodworking.meta"}
+{"name": "CiviCRM", "site_url": "https://civicrm.stackexchange.com", "api_site_parameter": "civicrm"}
+{"name": "CiviCRM Meta", "site_url": "https://civicrm.meta.stackexchange.com", "api_site_parameter": "civicrm.meta"}
+{"name": "Medical Sciences", "site_url": "https://medicalsciences.stackexchange.com", "api_site_parameter": "medicalsciences"}
+{"name": "Medical Sciences Meta", "site_url": "https://medicalsciences.meta.stackexchange.com", "api_site_parameter": "medicalsciences.meta"}
+{"name": "Stack Overflow \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c", "site_url": "https://ru.stackoverflow.com", "api_site_parameter": "ru.stackoverflow"}
+{"name": "Stack Overflow \u043d\u0430 \u0440\u0443\u0441\u0441\u043a\u043e\u043c Meta", "site_url": "https://ru.meta.stackoverflow.com", "api_site_parameter": "ru.meta.stackoverflow"}
+{"name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a", "site_url": "https://rus.stackexchange.com", "api_site_parameter": "rus"}
+{"name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a Meta", "site_url": "https://rus.meta.stackexchange.com", "api_site_parameter": "rus.meta"}
+{"name": "Mythology &amp; Folklore", "site_url": "https://mythology.stackexchange.com", "api_site_parameter": "mythology"}
+{"name": "Mythology &amp; Folklore Meta", "site_url": "https://mythology.meta.stackexchange.com", "api_site_parameter": "mythology.meta"}
+{"name": "Law", "site_url": "https://law.stackexchange.com", "api_site_parameter": "law"}
+{"name": "Law Meta", "site_url": "https://law.meta.stackexchange.com", "api_site_parameter": "law.meta"}
+{"name": "Open Source", "site_url": "https://opensource.stackexchange.com", "api_site_parameter": "opensource"}
+{"name": "Open Source Meta", "site_url": "https://opensource.meta.stackexchange.com", "api_site_parameter": "opensource.meta"}
+{"name": "elementary OS", "site_url": "https://elementaryos.stackexchange.com", "api_site_parameter": "elementaryos"}
+{"name": "elementary OS Meta", "site_url": "https://elementaryos.meta.stackexchange.com", "api_site_parameter": "elementaryos.meta"}
+{"name": "Portuguese Language", "site_url": "https://portuguese.stackexchange.com", "api_site_parameter": "portuguese"}
+{"name": "Portuguese Language Meta", "site_url": "https://portuguese.meta.stackexchange.com", "api_site_parameter": "portuguese.meta"}
+{"name": "Computer Graphics", "site_url": "https://computergraphics.stackexchange.com", "api_site_parameter": "computergraphics"}
+{"name": "Computer Graphics Meta", "site_url": "https://computergraphics.meta.stackexchange.com", "api_site_parameter": "computergraphics.meta"}
+{"name": "Hardware Recommendations", "site_url": "https://hardwarerecs.stackexchange.com", "api_site_parameter": "hardwarerecs"}
+{"name": "Hardware Recommendations Meta", "site_url": "https://hardwarerecs.meta.stackexchange.com", "api_site_parameter": "hardwarerecs.meta"}
+{"name": "Stack Overflow en espa&#241;ol", "site_url": "https://es.stackoverflow.com", "api_site_parameter": "es.stackoverflow"}
+{"name": "Stack Overflow Meta en espa&#241;ol", "site_url": "https://es.meta.stackoverflow.com", "api_site_parameter": "es.meta.stackoverflow"}
+{"name": "3D Printing", "site_url": "https://3dprinting.stackexchange.com", "api_site_parameter": "3dprinting"}
+{"name": "3D Printing Meta", "site_url": "https://3dprinting.meta.stackexchange.com", "api_site_parameter": "3dprinting.meta"}
+{"name": "Ethereum", "site_url": "https://ethereum.stackexchange.com", "api_site_parameter": "ethereum"}
+{"name": "Ethereum Meta", "site_url": "https://ethereum.meta.stackexchange.com", "api_site_parameter": "ethereum.meta"}
+{"name": "Latin Language", "site_url": "https://latin.stackexchange.com", "api_site_parameter": "latin"}
+{"name": "Latin Language Meta", "site_url": "https://latin.meta.stackexchange.com", "api_site_parameter": "latin.meta"}
+{"name": "Language Learning", "site_url": "https://languagelearning.stackexchange.com", "api_site_parameter": "languagelearning"}
+{"name": "Language Learning Meta", "site_url": "https://languagelearning.meta.stackexchange.com", "api_site_parameter": "languagelearning.meta"}
+{"name": "Retrocomputing", "site_url": "https://retrocomputing.stackexchange.com", "api_site_parameter": "retrocomputing"}
+{"name": "Retrocomputing Meta", "site_url": "https://retrocomputing.meta.stackexchange.com", "api_site_parameter": "retrocomputing.meta"}
+{"name": "Arts &amp; Crafts", "site_url": "https://crafts.stackexchange.com", "api_site_parameter": "crafts"}
+{"name": "Arts &amp; Crafts Meta", "site_url": "https://crafts.meta.stackexchange.com", "api_site_parameter": "crafts.meta"}
+{"name": "Korean Language", "site_url": "https://korean.stackexchange.com", "api_site_parameter": "korean"}
+{"name": "Korean Language Meta", "site_url": "https://korean.meta.stackexchange.com", "api_site_parameter": "korean.meta"}
+{"name": "Monero", "site_url": "https://monero.stackexchange.com", "api_site_parameter": "monero"}
+{"name": "Monero Meta", "site_url": "https://monero.meta.stackexchange.com", "api_site_parameter": "monero.meta"}
+{"name": "Artificial Intelligence", "site_url": "https://ai.stackexchange.com", "api_site_parameter": "ai"}
+{"name": "Artificial Intelligence Meta", "site_url": "https://ai.meta.stackexchange.com", "api_site_parameter": "ai.meta"}
+{"name": "Esperanto Language", "site_url": "https://esperanto.stackexchange.com", "api_site_parameter": "esperanto"}
+{"name": "Esperanto Language Meta", "site_url": "https://esperanto.meta.stackexchange.com", "api_site_parameter": "esperanto.meta"}
+{"name": "Sitecore", "site_url": "https://sitecore.stackexchange.com", "api_site_parameter": "sitecore"}
+{"name": "Sitecore Meta", "site_url": "https://sitecore.meta.stackexchange.com", "api_site_parameter": "sitecore.meta"}
+{"name": "Internet of Things", "site_url": "https://iot.stackexchange.com", "api_site_parameter": "iot"}
+{"name": "Internet of Things Meta", "site_url": "https://iot.meta.stackexchange.com", "api_site_parameter": "iot.meta"}
+{"name": "Literature", "site_url": "https://literature.stackexchange.com", "api_site_parameter": "literature"}
+{"name": "Literature Meta", "site_url": "https://literature.meta.stackexchange.com", "api_site_parameter": "literature.meta"}
+{"name": "Veganism &amp; Vegetarianism", "site_url": "https://vegetarianism.stackexchange.com", "api_site_parameter": "vegetarianism"}
+{"name": "Veganism &amp; Vegetarianism Meta", "site_url": "https://vegetarianism.meta.stackexchange.com", "api_site_parameter": "vegetarianism.meta"}
+{"name": "Ukrainian Language", "site_url": "https://ukrainian.stackexchange.com", "api_site_parameter": "ukrainian"}
+{"name": "Ukrainian Language Meta", "site_url": "https://ukrainian.meta.stackexchange.com", "api_site_parameter": "ukrainian.meta"}
+{"name": "DevOps", "site_url": "https://devops.stackexchange.com", "api_site_parameter": "devops"}
+{"name": "DevOps Meta", "site_url": "https://devops.meta.stackexchange.com", "api_site_parameter": "devops.meta"}
+{"name": "Bioinformatics", "site_url": "https://bioinformatics.stackexchange.com", "api_site_parameter": "bioinformatics"}
+{"name": "Bioinformatics Meta", "site_url": "https://bioinformatics.meta.stackexchange.com", "api_site_parameter": "bioinformatics.meta"}
+{"name": "Computer Science Educators", "site_url": "https://cseducators.stackexchange.com", "api_site_parameter": "cseducators"}
+{"name": "Computer Science Educators Meta", "site_url": "https://cseducators.meta.stackexchange.com", "api_site_parameter": "cseducators.meta"}
+{"name": "Interpersonal Skills", "site_url": "https://interpersonal.stackexchange.com", "api_site_parameter": "interpersonal"}
+{"name": "Interpersonal Skills Meta", "site_url": "https://interpersonal.meta.stackexchange.com", "api_site_parameter": "interpersonal.meta"}
+{"name": "Iota", "site_url": "https://iota.stackexchange.com", "api_site_parameter": "iota"}
+{"name": "Iota Meta", "site_url": "https://iota.meta.stackexchange.com", "api_site_parameter": "iota.meta"}
+{"name": "Stellar", "site_url": "https://stellar.stackexchange.com", "api_site_parameter": "stellar"}
+{"name": "Stellar Meta", "site_url": "https://stellar.meta.stackexchange.com", "api_site_parameter": "stellar.meta"}
+{"name": "Constructed Languages", "site_url": "https://conlang.stackexchange.com", "api_site_parameter": "conlang"}
+{"name": "Constructed Languages Meta", "site_url": "https://conlang.meta.stackexchange.com", "api_site_parameter": "conlang.meta"}
+{"name": "Quantum Computing", "site_url": "https://quantumcomputing.stackexchange.com", "api_site_parameter": "quantumcomputing"}
+{"name": "Quantum Computing Meta", "site_url": "https://quantumcomputing.meta.stackexchange.com", "api_site_parameter": "quantumcomputing.meta"}
+{"name": "EOS.IO", "site_url": "https://eosio.stackexchange.com", "api_site_parameter": "eosio"}
+{"name": "EOS.IO Meta", "site_url": "https://eosio.meta.stackexchange.com", "api_site_parameter": "eosio.meta"}
+{"name": "Tezos", "site_url": "https://tezos.stackexchange.com", "api_site_parameter": "tezos"}
+{"name": "Tezos Meta", "site_url": "https://tezos.meta.stackexchange.com", "api_site_parameter": "tezos.meta"}
+{"name": "Operations Research", "site_url": "https://or.stackexchange.com", "api_site_parameter": "or"}
+{"name": "Operations Research Meta", "site_url": "https://or.meta.stackexchange.com", "api_site_parameter": "or.meta"}
+{"name": "Drones and Model Aircraft", "site_url": "https://drones.stackexchange.com", "api_site_parameter": "drones"}
+{"name": "Drones and Model Aircraft Meta", "site_url": "https://drones.meta.stackexchange.com", "api_site_parameter": "drones.meta"}
+{"name": "Matter Modeling", "site_url": "https://mattermodeling.stackexchange.com", "api_site_parameter": "mattermodeling"}
+{"name": "Matter Modeling Meta", "site_url": "https://mattermodeling.meta.stackexchange.com", "api_site_parameter": "mattermodeling.meta"}
+{"name": "Cardano", "site_url": "https://cardano.stackexchange.com", "api_site_parameter": "cardano"}
+{"name": "Cardano Meta", "site_url": "https://cardano.meta.stackexchange.com", "api_site_parameter": "cardano.meta"}
+{"name": "Proof Assistants", "site_url": "https://proofassistants.stackexchange.com", "api_site_parameter": "proofassistants"}
+{"name": "Proof Assistants Meta", "site_url": "https://proofassistants.meta.stackexchange.com", "api_site_parameter": "proofassistants.meta"}
+{"name": "Substrate and Polkadot", "site_url": "https://substrate.stackexchange.com", "api_site_parameter": "substrate"}
+{"name": "Substrate and Polkadot Meta", "site_url": "https://substrate.meta.stackexchange.com", "api_site_parameter": "substrate.meta"}
+{"name": "Bioacoustics", "site_url": "https://bioacoustics.stackexchange.com", "api_site_parameter": "bioacoustics"}
+{"name": "Bioacoustics Meta", "site_url": "https://bioacoustics.meta.stackexchange.com", "api_site_parameter": "bioacoustics.meta"}
+{"name": "Solana", "site_url": "https://solana.stackexchange.com", "api_site_parameter": "solana"}
+{"name": "Solana Meta", "site_url": "https://solana.meta.stackexchange.com", "api_site_parameter": "solana.meta"}
+{"name": "Programming Language Design and Implementation", "site_url": "https://langdev.stackexchange.com", "api_site_parameter": "langdev"}
+{"name": "Programming Language Design and Implementation Meta", "site_url": "https://langdev.meta.stackexchange.com", "api_site_parameter": "langdev.meta"}
+{"name": "GenAI", "site_url": "https://genai.stackexchange.com", "api_site_parameter": "genai"}
+{"name": "GenAI Meta", "site_url": "https://genai.meta.stackexchange.com", "api_site_parameter": "genai.meta"}
