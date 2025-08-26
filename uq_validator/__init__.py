@@ -13,9 +13,9 @@ from .factory import JudgmentFactory
 from .strategies import (
     RelevanceStrategy,
     CycleConsistencyStrategy,
-    FactCheckStrategy,
+    FactualErrorStrategy,
     FinalAnswerStrategy,
-    CorrectnessStrategy,
+    TotalCorrectnessStrategy,
     VanillaStrategy,
 )
 from .decorators import (
@@ -39,9 +39,9 @@ __all__ = [
     # Strategies
     "RelevanceStrategy",
     "CycleConsistencyStrategy", 
-    "FactCheckStrategy",
+    "FactualErrorStrategy",
     "FinalAnswerStrategy",
-    "CorrectnessStrategy",
+    "TotalCorrectnessStrategy",
     "VanillaStrategy",
     
     # Decorators

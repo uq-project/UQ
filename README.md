@@ -55,6 +55,7 @@ Once you have your model predictions, you can use UQ-validators via:
 ### Python Script
 
 ```bash
+# Each sample in input file should include question_id and answer
 python validate.py --input_file your_answers --model o3 --strategy sequential --turns 3 \
     --multi_turn_voting majority
 ```
@@ -73,10 +74,6 @@ uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy
 uq-validate --input_file your_answers.jsonl --dataset questions.jsonl --strategy total_correctness \
     --samples 3 --resampling_voting majority
 ```
-
-## Visuals
-
-All figures and some tables are created via [this colab](TODO) equivalent to `visuals/visuals.ipynb`. Some are subsequently edited via the `visuals/visuals.fig` file, which you can load in Figma. The output figures are in `visuals/` in pdf or png format.
 
 ## Citation
 
